@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-31T13:19:13 GMT-08:00" name="CitiBank" finished-at="2023-03-31T13:19:14 GMT-08:00" duration-ms="204">
+    <groups>
+      <group name="regression">
+        <method signature="CurrentAccount.currentAcc()[pri:0, instance:OpenBankAccount.CurrentAccount@3738449f]" name="currentAcc" class="OpenBankAccount.CurrentAccount"/>
+        <method signature="SavingsBankAccount.savings()[pri:0, instance:OpenBankAccount.SavingsBankAccount@625732]" name="savings" class="OpenBankAccount.SavingsBankAccount"/>
+        <method signature="ZeroBalance.ZeroforStudents()[pri:0, instance:OpenBankAccount.ZeroBalance@120f102b]" name="ZeroforStudents" class="OpenBankAccount.ZeroBalance"/>
+        <method signature="HomeLoans.homeconstruction()[pri:0, instance:Loans.HomeLoans@fa49800]" name="homeconstruction" class="Loans.HomeLoans"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CurrentAccount.currentAcc()[pri:0, instance:OpenBankAccount.CurrentAccount@3738449f]" name="currentAcc" class="OpenBankAccount.CurrentAccount"/>
+        <method signature="SallariedAccount.salary()[pri:0, instance:OpenBankAccount.SallariedAccount@51dcb805]" name="salary" class="OpenBankAccount.SallariedAccount"/>
+        <method signature="SavingsBankAccount.savings()[pri:0, instance:OpenBankAccount.SavingsBankAccount@625732]" name="savings" class="OpenBankAccount.SavingsBankAccount"/>
+        <method signature="ZeroBalance.ZeroforStudents()[pri:0, instance:OpenBankAccount.ZeroBalance@120f102b]" name="ZeroforStudents" class="OpenBankAccount.ZeroBalance"/>
+        <method signature="HomeLoans.homeconstruction()[pri:0, instance:Loans.HomeLoans@fa49800]" name="homeconstruction" class="Loans.HomeLoans"/>
+      </group> <!-- smoke -->
+      <group name="regresson">
+        <method signature="SallariedAccount.salary()[pri:0, instance:OpenBankAccount.SallariedAccount@51dcb805]" name="salary" class="OpenBankAccount.SallariedAccount"/>
+      </group> <!-- regresson -->
+    </groups>
+    <test started-at="2023-03-31T13:19:13 GMT-08:00" name="OpenBankAccount" finished-at="2023-03-31T13:19:13 GMT-08:00" duration-ms="82">
+      <class name="OpenBankAccount.SavingsBankAccount">
+        <test-method signature="savings()[pri:0, instance:OpenBankAccount.SavingsBankAccount@625732]" started-at="2023-03-31T13:19:13 GMT-08:00" name="savings" finished-at="2023-03-31T13:19:13 GMT-08:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savings -->
+      </class> <!-- OpenBankAccount.SavingsBankAccount -->
+      <class name="OpenBankAccount.ZeroBalance">
+        <test-method signature="ZeroforStudents()[pri:0, instance:OpenBankAccount.ZeroBalance@120f102b]" started-at="2023-03-31T13:19:13 GMT-08:00" name="ZeroforStudents" finished-at="2023-03-31T13:19:13 GMT-08:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZeroforStudents -->
+      </class> <!-- OpenBankAccount.ZeroBalance -->
+      <class name="OpenBankAccount.CurrentAccount">
+        <test-method signature="currentAcc()[pri:0, instance:OpenBankAccount.CurrentAccount@3738449f]" started-at="2023-03-31T13:19:13 GMT-08:00" name="currentAcc" finished-at="2023-03-31T13:19:13 GMT-08:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentAcc -->
+      </class> <!-- OpenBankAccount.CurrentAccount -->
+      <class name="OpenBankAccount.SallariedAccount">
+        <test-method signature="salary()[pri:0, instance:OpenBankAccount.SallariedAccount@51dcb805]" started-at="2023-03-31T13:19:13 GMT-08:00" name="salary" finished-at="2023-03-31T13:19:13 GMT-08:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salary -->
+      </class> <!-- OpenBankAccount.SallariedAccount -->
+    </test> <!-- OpenBankAccount -->
+    <test started-at="2023-03-31T13:19:14 GMT-08:00" name="Loans" finished-at="2023-03-31T13:19:14 GMT-08:00" duration-ms="7">
+      <class name="Loans.HomeLoans">
+        <test-method signature="homeconstruction()[pri:0, instance:Loans.HomeLoans@fa49800]" started-at="2023-03-31T13:19:14 GMT-08:00" name="homeconstruction" finished-at="2023-03-31T13:19:14 GMT-08:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeconstruction -->
+      </class> <!-- Loans.HomeLoans -->
+    </test> <!-- Loans -->
+  </suite> <!-- CitiBank -->
+</testng-results>
